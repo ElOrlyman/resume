@@ -1,0 +1,548 @@
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>elOrly | Resume</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta http-equiv="content-language" content="ES">
+	<meta name="description" content="Orlando Miranda | CV">
+	<meta name="author" content="Orlando Miranda">
+	<meta name="keywords" content="">
+    <meta name="copyright" content="">
+	<meta name="abstract" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	
+	<!--Google Fonts-->
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+
+	
+	<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<script src="assets/js/jquery.appear.js"></script>
+	<script src="assets/js/jquery.fancybox.js"></script>
+	<script src="assets/plugins/Charts/easyPieChart/jquery.easypiechart.js"></script>
+	<script src="assets/plugins/Charts/horizontalBarChart/jquery.horizBarChart.js"></script>
+	<script src="assets/plugins/Snapshots/url2img.js"></script>
+	<script src="assets/js/init.js"></script>
+		
+	<!--Plugins CSS-->
+	<link rel="stylesheet" href="assets/js/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="assets/css/blu.css" />
+	
+	<!--Main CSS-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	
+		<!--Media queries-->
+		<link rel="stylesheet" media='screen and (max-width: 467px)' href="assets/css/style-2xs.css"/>
+		<link rel="stylesheet" media='screen and (min-width: 468px) and (max-width: 767px)' href="assets/css/style-xs.css"/>
+		<link rel="stylesheet" media='screen and (min-width: 768px) and (max-width: 991px)' href="assets/css/style-sm.css"/>
+		<link rel="stylesheet" media='screen and (min-width: 992px) and (max-width: 1199px)' href="assets/css/style-md.css"/>
+		<link rel="stylesheet" media='screen and (min-width: 1200px)' href="assets/css/style-lg.css" />
+	
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header" class="hidden-xs hidden-sm">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo"></div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#about" id="about-link" class=" active">
+									<span class="link-top">About me</span>
+									<span class="link-bottom">My basic information</span>
+								</a></li>
+								<li><a href="#experience" id="experience-link">
+									<span class="link-top">Experience</span>
+									<span class="link-bottom">All my Education & Work history</span>
+								</a></li>
+								<li><a href="#abilities" id="abilities-link">
+									<span class="link-top">Abilities</span>
+									<span class="link-bottom"><em>"I have a particular set of skills"</em></span>
+								</a></li>
+								<!-- <li><a href="#work" id="work-link">
+									<span class="link-top">My Work</span>
+									<span class="link-bottom">Here are some of my personal & sold projects</span>
+								</a></li> -->
+								<li><a href="#contact" id="contact-link">
+									<span class="link-top">Contact</span>
+									<span class="link-bottom">Please feel free to contact me</span>
+								</a></li>
+							</ul>
+						</nav>
+						
+				</div>
+				
+				<!-- <div class="bottom">
+						<a href="#" class="download-pdf">
+							<i class="fa fa-file-text"></i>
+							<span>Download Resume</span>
+						</a>
+				</div> -->
+			
+			</div>
+			
+			<div id="header-mobile" class="hidden-md hidden-lg">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo" class="pull-left"></div>
+					
+					<!-- Menu button -->					
+						<a id="btn-menu" class="pull-right">
+							<i class="fa fa-2x fa-caret-down"></i>
+						</a>
+						
+				</div>
+				
+				<ul id="nav-mobile">
+					<li><a href="#main" id="m-about-link" class="active">
+						<span>About me</span>
+					</a></li>
+					<li><a href="#experience" id="m-experience-link">
+						<span>Experience</span>
+					</a></li>
+					<li><a href="#abilities" id="m-abilities-link">
+						<span>Abilities</span>
+					</a></li>
+					<!-- <li><a href="#work" id="m-work-link">
+						<span>My Work</span>
+					</a></li> -->
+					<li><a href="#contact" id="m-contact-link">
+						<span>Contact</span>
+					</a></li>
+				</ul>
+				
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+			
+				<!-- About Me -->
+					<section id="about" class="one">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+							<p class="lead">My basic information.</p>
+							
+							<div class="row">
+								<div class="col-sm-4">
+									<h3>Who am I?</h3>
+									<p>
+										<strong>Name:</strong><br>Jos&eacute; Orlando Miranda &Aacute;lvarez<br>
+										<strong>Date of Birth:</strong><br><span id="birthday">February 17, 1986</span> <em>(<span id="age"></span>)</em><br>
+										<strong>Location:</strong><br>Hermosillo, Sonora, Mex.<br>
+										<strong>Citizen Status:</strong><br>Married<br>
+										<strong>Nacionality:</strong><br>Mexican<br>
+									</p>
+								</div>
+								<div class="col-sm-4">
+									<h3>Professional goal</h3>
+									<p>Interested in the role of a Software Engineer where I can contribute my analytical skills and knowledge acquired by pursuing my degree in Software Engineering. Looking for a dynamic and progressive company where my skills are utilized in the maximum way possible.</p>
+								</div>
+								<div class="col-sm-4">
+									<div class="fotito-container">
+										<div class="fotito"></div>
+										<div class="chango"></div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</section>
+					
+				<!-- Experience -->
+					<section id="experience" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Experience</h2>
+							</header>
+							<p class="lead">All my Education & Work history.</p>
+							
+							<h3>Work</h3>
+							<div class="experience row">
+								<div class="col-md-4">
+									<h4 class="subtitle">Comisi&oacute;n Federal de Electricidad</h4>
+									<small class="description">Electric Company</small>
+								</div>
+								<div class="col-md-8">
+									<p>
+										<strong>Web Designer<small class="period">Aug 2010 - <em>Current</em></small></strong>
+										<span class="hidden-xs">
+											I am currently working with the backend and frontend development of the main GIS software for the company; Among my duties where Frontend development (Ionic 5, Leaflet & Turf.js), Backend API Development (Express.js) & some database management (PostgreSQL).
+										<span class="experience-details">
+										</span>
+									</p>
+									<p>
+										<strong>Server Management, Web Developer<small class="period">May 2009 - Aug 2010</small></strong>
+										<span class="hidden-xs">
+											Support and Administration of Red Hat/Red Hat based servers.
+											Web and Desktop development in several languages like Visual Basic, Visual C#, PHP and different data bases like Oracle, MSSQL y MySQL.
+										<span class="experience-details">
+										</span>
+									</p>
+									<p>
+										<strong>Internship<small class="period">Sep 2008 - May 2009</small></strong>
+										<span class="hidden-xs">
+											.NET development with Oracle PL/SQL and VB.
+										<span class="experience-details">
+										</span>
+									</p>
+								</div>
+							</div>
+							<div class="experience row">
+								<div class="col-md-4">
+									<h4 class="subtitle">Ligas Pequeñas de Beisbol</h4>
+									<small class="description">Management application</small>
+								</div>
+								<div class="col-md-8">
+									<p>
+										<strong>Web Designer<small class="period">Oct 2018 - Apr 2020</small></strong>
+										<span class="hidden-xs">
+											I created a management application for the mexican Little League Baseball the LAMP stack with PHP5‭ ‬as server-side language and MySQL for‭ ‬database management.‭
+										<span class="experience-details">
+										</span>
+									</p>
+								</div>
+							</div>
+							<div class="experience row">
+								<div class="col-md-4">
+									<h4 class="subtitle">Geeknology</h4>
+									<small class="description">Video-Game News Website</small>
+								</div>
+								<div class="col-md-8">
+									<p>
+										<strong>Co-Founder, Web & Graphic Designer, Writer<small class="period">Jul 2013 - <em>Current</em></small></strong>
+										<span class="hidden-xs">
+											The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML and more. During my time in college, I specialized in multimedia. Here I learned about gaming -the importance of OOP-, web- and user experience and design.				</span>
+										<span class="experience-details">
+										</span>
+									</p>
+								</div>
+							</div>
+							<div class="experience row">
+								<div class="col-md-4">
+									<h4 class="subtitle">Strootman Advertising</h4>
+									<small class="description">Advertising Agency</small>
+								</div>
+								<div class="col-md-8">
+									<p>
+										<strong>Co-Founder, Web Designer, Server Management<small class="period">Jun 2013 - <em>Current</em></small></strong>
+										<span class="hidden-xs">
+											The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML and more. During my time in college, I specialized in multimedia. Here I learned about gaming -the importance of OOP-, web- and user experience and design.				</span>
+										<span class="experience-details">
+										</span>
+									</p>
+								</div>
+							</div>
+							<div class="experience row">
+								<div class="col-md-4">
+									<h4 class="subtitle">Bit&aacute;cora Cin&eacute;tica</h4>
+									<small class="description">Movie News Website</small>
+								</div>
+								<div class="col-md-8">
+									<p>
+										<strong>Co-Founder, Graphic Designer, Writer<small class="period">Aug 2001 - Jun 2004</small></strong>
+										<span class="hidden-xs">
+											The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML and more. During my time in college, I specialized in multimedia. Here I learned about gaming -the importance of OOP-, web- and user experience and design.				</span>
+										<span class="experience-details">
+										</span>
+									</p>
+								</div>
+							</div>
+							
+							<h3>Education</h3>
+							<div class="experience row">
+								<div class="col-md-4">
+									<h4 class="subtitle">Instituto Tecnol&oacute;gico de Hermosillo</h4>
+									<small class="description">University</small>
+								</div>
+								<div class="col-md-8">
+									<p>
+										<strong>Computer Systems Engineering<small class="period">Aug 2004 - Dec 2008</small></strong>
+										<span class="hidden-xs">
+											The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML and more. During my time in college, I specialized in multimedia. Here I learned about gaming -the importance of OOP-, web- and user experience and design.				</span>
+										<span class="experience-details">
+										</span>
+									</p>
+								</div>
+							</div>
+							<div class="experience row">
+								<div class="col-md-4">
+									<h4 class="subtitle">Colegio de Bachilleres del Estado de Sonora</h4>
+									<small class="description">Highschool</small>
+								</div>
+								<div class="col-md-8">
+									<p>
+										<strong>Graphic Design<small class="period">Aug 2001 - Jun 2004</small></strong>
+										<span class="hidden-xs">
+											The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML and more. During my time in college, I specialized in multimedia. Here I learned about gaming -the importance of OOP-, web- and user experience and design.				</span>
+										<span class="experience-details">
+										</span>
+									</p>
+								</div>
+							</div>
+							
+						</div>
+					</section>
+
+				<!-- Abilities -->
+					<section id="abilities" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Abilities</h2>
+							</header>
+							<p class="lead"><em>"I have a particular set of skills".</em></p>
+							
+							<div class="row cart">
+								<div class="col-xs-12 col-sm-9 cart-container">
+									<h3>Skills</h3>
+									<ul class="barchart">
+										<li class="past" title="HTML5"><span class="bar" data-number="100"></span><span class="number"></span></li>
+										<li class="past" title="SASS"><span class="bar" data-number="100"></span><span class="number"></span></li>
+										<li class="past" title="Responsive Design"><span class="bar" data-number="100"></span><span class="number"></span></li>
+										<li class="past" title="JavaScript"><span class="bar" data-number="100"></span><span class="number"></span></li>
+										<li class="past" title="Node.js"><span class="bar" data-number="100"></span><span class="number"></span></li>
+										<li class="past" title="Express.js"><span class="bar" data-number="100"></span><span class="number"></span></li>
+										<li class="past" title="jQuery"><span class="bar" data-number="100"></span><span class="number"></span></li>
+										<li class="past" title="Ionic 5"><span class="bar" data-number="90"></span><span class="number"></span></li>
+										<li class="past" title="Angular 9"><span class="bar" data-number="90"></span><span class="number"></span></li>
+										<li class="past" title="Leaflet"><span class="bar" data-number="90"></span><span class="number"></span></li>
+										<li class="past" title="Turf.js"><span class="bar" data-number="90"></span><span class="number"></span></li>
+										<li class="past" title="Docker"><span class="bar" data-number="90"></span><span class="number"></span></li>
+										<li class="past" title=".NET"><span class="bar" data-number="90"></span><span class="number"></span></li>
+										<li class="past" title="PostgreSQL"><span class="bar" data-number="90"></span><span class="number"></span></li>
+										<li class="past" title="Oracle"><span class="bar" data-number="90"></span><span class="number"></span></li>
+										<li class="past" title="MySQL"><span class="bar" data-number="90"></span><span class="number"></span></li>
+										<li class="past" title="Wordpress"><span class="bar" data-number="90"></span><span class="number"></span></li>
+										<li class="past" title="Wireframing"><span class="bar" data-number="90"></span><span class="number"></span></li>
+										<li class="past" title="UX"><span class="bar" data-number="80"></span><span class="number"></span></li>
+										<li class="past" title="PHP"><span class="bar" data-number="80"></span><span class="number"></span></li>
+										<li class="past" title="XML"><span class="bar" data-number="80"></span><span class="number"></span></li>
+										<li class="past" title="Branding"><span class="bar" data-number="80"></span><span class="number"></span></li>
+										<li class="past" title="Photoshop"><span class="bar" data-number="80"></span><span class="number"></span></li>
+										<li class="past" title="MVC"><span class="bar" data-number="70"></span><span class="number"></span></li>
+										<li class="past" title="SEO"><span class="bar" data-number="60"></span><span class="number"></span></li>
+										<li class="past" title="AngularJS"><span class="bar" data-number="40"></span><span class="number"></span></li>
+									</ul>
+								</div>
+								<div class="col-xs-12 col-sm-3">
+									<h3>Languages</h3>
+									<div class="row">
+										<div class="element-line col-xs-6 col-sm-12">
+											<div class="circular-content">
+												<div class="circular-item hidden">
+													<div class="circular-pie" data-percent="100" data-color="#577792">
+														<p class="lead">
+															Spanish
+														</p>
+														<p class="sub">
+															Native language
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="element-line col-xs-6 col-sm-12">
+											<div class="circular-content">
+												<div class="circular-item hidden">
+													<div class="circular-pie" data-percent="85" data-color="#577792">
+														<p class="lead">
+															English
+														</p>
+														<p class="sub">
+															Fluent
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</section>
+			
+				<!-- Portfolio -->
+					<!-- <section id="work" class="four">
+						<div class="container">
+					
+							<header>
+								<h2>My Work</h2>
+							</header>
+							<p class="lead">Here are some of my personal & sold projects.</p>
+							
+							<div class="row">
+								<div class="col-xs-12 col-sm-6 col-lg-4">
+									<a href="http://strootman.mx" target="_blank" class="thumbnail">
+										<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%<a href='http://www.jqueryscript.net/tags.php?/3D/'>3D</a>" data-url="http://strootman.mx" alt="Strootman Advertising">
+										<div class="hover-items">
+											<span>Strootman Advertising</span>
+										</div>
+									</a>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-lg-4">
+									<a href="http://geeknology.com.mx" target="_blank" class="thumbnail">
+										<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%<a href='http://www.jqueryscript.net/tags.php?/3D/'>3D</a>" data-url="http://geeknology.com.mx" alt="Geeknology">
+										<div class="hover-items">
+											<span>Geeknology</span>
+										</div>
+									</a>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-lg-4">
+									<a href="http://arsciniest.com" target="_blank" class="thumbnail">
+										<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%<a href='http://www.jqueryscript.net/tags.php?/3D/'>3D</a>" data-url="http://arsciniest.com" alt="Arsciniest">
+										<div class="hover-items">
+											<span>Arsciniest</span>
+										</div>
+									</a>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-lg-4">
+									<a href="http://polarishermosillo.com/" target="_blank" class="thumbnail">
+										<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%<a href='http://www.jqueryscript.net/tags.php?/3D/'>3D</a>" data-url="http://polarishermosillo.com/" alt="Polaris">
+										<div class="hover-items">
+											<span>Polaris Hermosillo</span>
+										</div>
+									</a>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-lg-4">
+									<a href="http://yunkeonline.com/" target="_blank" class="thumbnail">
+										<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%<a href='http://www.jqueryscript.net/tags.php?/3D/'>3D</a>" data-url="http://yunkeonline.com" alt="YunkeOnline">
+										<div class="hover-items">
+											<span>YunkeOnline</span>
+										</div>
+									</a>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-lg-4">
+									<a href="http://secure-tactics.com/" target="_blank" class="thumbnail">
+										<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%<a href='http://www.jqueryscript.net/tags.php?/3D/'>3D</a>" data-url="http://secure-tactics.com" alt="Secure Tactics">
+										<div class="hover-items">
+											<span>Secure Tactics</span>
+										</div>
+									</a>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-lg-4">
+									<a href="http://silicatiling.com/" target="_blank" class="thumbnail">
+										<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%<a href='http://www.jqueryscript.net/tags.php?/3D/'>3D</a>" data-url="http://silicatiling.com" alt="Silica">
+										<div class="hover-items">
+											<span>Silica Tiling</span>
+										</div>
+									</a>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-lg-4">
+									<a href="http://sistemasautomatizados.net/" target="_blank" class="thumbnail">
+										<img src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs%<a href='http://www.jqueryscript.net/tags.php?/3D/'>3D</a>" data-url="http://sistemasautomatizados.net" alt="SISA">
+										<div class="hover-items">
+											<span>SISA</span>
+										</div>
+									</a>
+								</div>
+								
+							</div>
+							
+						</div>
+					</section> -->
+
+				<!-- Contact -->
+					<section id="contact" class="five">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+							<p class="lead">Please feel free to contact me.</p>
+							
+							<div class="row">
+
+								<!-- Link item -->
+								<div class="col-md-3 col-sm-3">
+									<!-- <div class="element-line">
+										<div class="item_top" style="opacity: 1; top: 0px;">
+											<div class="hi-icon-effect-1">
+												<a href="https://www.facebook.com/strootmanAD" target="_blank"> <i class="hi-icon fa fa-facebook fa-3x"></i> </a>
+											</div>
+											<span>Facebook</span>
+										</div>
+									</div> -->
+								</div>
+								<!-- Link item -->
+
+								<!-- Link item -->
+								<div class="col-md-3 col-sm-3 col-xs-6">
+									<div class="element-line">
+										<div class="item_bottom" style="opacity: 1; bottom: 0px;">
+											<div class="hi-icon-effect-1">
+												<a href="https://twitter.com/StrootmanAD" target="_blank"> <i class="hi-icon fa fa-at fa-3x"></i> </a>
+											</div>
+											<span>orlandomirandaa@outlook.com</span>
+										</div>
+									</div>
+								</div>
+								<!-- Link item -->
+
+								<!-- Link item -->
+								<div class="col-md-3 col-sm-3 col-xs-6">
+									<div class="element-line">
+										<div class="item_top" style="opacity: 1; top: 0px;">
+											<div class="hi-icon-effect-1">
+												<a href="https://plus.google.com/109905890085687843403/about" target="_blank"> <i class="hi-icon fa fa-phone fa-3x"></i> </a>
+											</div>
+											<span>(662) 233-8223</span>
+										</div>
+									</div>
+								</div>
+								<!-- Link item -->
+
+								<!-- Link item -->
+								<!-- <div class="col-md-3 col-sm-3 col-xs-6">
+									<div class="element-line">
+										<div class="item_bottom" style="opacity: 1; bottom: 0px;">
+											<div class="hi-icon-effect-1">
+												<a href="https://es.foursquare.com/v/strootman-advertising/53937a9a498e57e156818ad7" target="_blank"> <i class="hi-icon fa fa-at fa-3x"></i> </a>
+											</div>
+											<span>Mail</span>
+										</div>
+									</div>
+								</div> -->
+								<!-- Link item -->
+
+							</div>
+							
+						</div>
+					</section>
+			
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				
+					<div class="copyright">
+						<ul class="menu">
+							<li>elOrly&copy; 2021</li>
+						</ul>
+					</div>
+				
+			</div>
+
+	</body>
+</html>
