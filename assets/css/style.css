@@ -544,7 +544,7 @@
 		cursor: default;
 		display:block;
 		background:transparent url('images/logo-alt.png') no-repeat 50% 50% !important;
-		background-size:contain !important;
+		background-size: contain !important;
 	}
 		
 	#nav {
