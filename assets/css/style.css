@@ -14,6 +14,12 @@
 		background: #fff;
 	}
 
+	@media print {
+	  body {
+	    zoom: 80%;
+	  }
+	}
+
 	body,input,textarea,select {
 		font-family: 'Open Sans', sans-serif;
 		font-size: 15px;
@@ -537,8 +543,8 @@
 		height: 82px;
 		cursor: default;
 		display:block;
-		background:transparent url('images/logo-alt.png') no-repeat 50% 50%;
-		background-size:contain;
+		background:transparent url('images/logo-alt.png') no-repeat 50% 50% !important;
+		background-size:contain !important;
 	}
 		
 	#nav {
